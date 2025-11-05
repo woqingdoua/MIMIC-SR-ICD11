@@ -44,8 +44,8 @@ S(x, c) = -,L_{\text{cond}}(x,c) + \alpha,L_{\text{prior}}(c), \quad \alpha = 1
 
 Across seven medical backbones, **LL-Rank** consistently outperforms a generation+mapping baseline (**GenMap**):
 
-* Hit@3/5/10**: average gains of **≈ +80% / +86% / +93%
-* Macro-F1@3/5/10**: average gains of **≈ +138% / +147% / +157%
+* Hit@3/5/10: average gains of **≈ +80% / +86% / +93%
+* Macro-F1@3/5/10: average gains of **≈ +138% / +147% / +157%
 
 These gains are especially strong for Macro-F1, indicating improved performance on underrepresented labels—not merely amplifying head classes. Performance peaks around **(\alpha \approx 1)**.
 
