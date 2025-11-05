@@ -18,9 +18,9 @@
 
 ## 🧱 Dataset Construction
 
-> This repository displays the construction as Figure 2 from the paper. Please place the exported image at `figure2.pdf` (or update the path below).
+> This repository displays the construction as Figure 2 from the paper. 
 
-![Data construction pipeline (Figure 2)](figure2.pdf)
+![Data construction pipeline (Figure 2)](data_construction_diagram.pdf)
 
 *Figure 2: Left branch maps primary diagnoses from MIMIC-IV (ICD-9 → ICD-10 via CMS GEMs; ICD-10 → ICD-11 via WHO tables) with one-to-one filtering and manual curation. Right branch rewrites MIMIC-IV-Note into first-person self-reports using an instruction-tuned prompt that excludes clinician-only content.*
 
