@@ -30,12 +30,12 @@
 
 We introduce **LL-Rank**, a likelihood-based re-ranking framework that discounts head-class (frequent label) bias by subtracting a report-free prior from the conditional likelihood.
 
-[
+\[
 S(x, c) = -,L_{\text{cond}}(x,c) + \alpha,L_{\text{prior}}(c), \quad \alpha = 1
-]
+\]
 
-* **Conditional term** (L_{\text{cond}}): per-token NLL of label *c* given report *x* under a fixed prompt.
-* **Prior term** (L_{\text{prior}}): per-token NLL of *c* under the same prompt **without** the report (report-free prior).
+* **Conditional term** \(L_{\text{cond}}\): per-token NLL of label *c* given report *x* under a fixed prompt.
+* **Prior term** \(L_{\text{prior}}\): per-token NLL of *c* under the same prompt **without** the report (report-free prior).
 * **Effect**: isolates semantic compatibility from label frequency, improving calibration and long-tail performance.
 
 ---
